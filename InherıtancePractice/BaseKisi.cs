@@ -24,7 +24,7 @@ namespace InherıtancePractice
         {
             public string StudentNumber {  get; set; }
 
-            // teacher show information metod
+            // teacher show information metod.
             public  void DisplayStudentInfo(string studentName, string studentSurname, string studentNumber)
             {
                 DisplayNameSurname(studentName, studentSurname);
